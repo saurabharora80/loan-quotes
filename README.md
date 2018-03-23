@@ -9,10 +9,7 @@ monthly repayment amount and the total repayment amount.
 
 Repayment amounts should be displayed to 2 decimal places and the rate of the loan should be displayed to one decimal place.
 
-Borrowers should be able to request a loan of any £100 increment between £1000
-and £15000 inclusive. If the market does not have sufficient offers from
-lenders to satisfy the loan then the system should inform the borrower that it
-is not possible to provide a quote at that time.
+Borrowers should be able to request a loan of any £100 increment between £1000 and £15000 inclusive. If the market does not have sufficient offers from lenders to satisfy the loan then the system should inform the borrower that it is not possible to provide a quote at that time.
 
 Output should have the following format
 
@@ -25,4 +22,4 @@ Total repayment: £XXXX.XX
 
 ## Running the app
 
-execute `sbt "run $filePath $loanAmount"` i.e. `sbt "run ./market_data.csv 1000"`
+execute `sbt "run $filePath $loanAmount"` i.e. `sbt "run ./src/test/resources/market_data.csv 1000"`
